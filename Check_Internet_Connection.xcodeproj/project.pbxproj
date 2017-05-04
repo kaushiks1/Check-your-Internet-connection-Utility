@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440AA04A1DA28A2D00D568B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440AA0491DA28A2D00D568B6 /* AppDelegate.swift */; };
+		440AA04C1DA28A2D00D568B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440AA04B1DA28A2D00D568B6 /* ViewController.swift */; };
+		440AA04F1DA28A2D00D568B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440AA04D1DA28A2D00D568B6 /* Main.storyboard */; };
+		440AA0511DA28A2D00D568B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440AA0501DA28A2D00D568B6 /* Assets.xcassets */; };
+		440AA0541DA28A2D00D568B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440AA0521DA28A2D00D568B6 /* LaunchScreen.storyboard */; };
+		440AA05F1DA28A2D00D568B6 /* Check_Internet_ConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440AA05E1DA28A2D00D568B6 /* Check_Internet_ConnectionTests.swift */; };
+		440AA06A1DA28A2D00D568B6 /* Check_Internet_ConnectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440AA0691DA28A2D00D568B6 /* Check_Internet_ConnectionUITests.swift */; };
+		440AA07C1DA28E3F00D568B6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440AA07B1DA28E3F00D568B6 /* Utility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		440AA05B1DA28A2D00D568B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440AA03E1DA28A2D00D568B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440AA0451DA28A2D00D568B6;
+			remoteInfo = Check_Internet_Connection;
+		};
+		440AA0661DA28A2D00D568B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440AA03E1DA28A2D00D568B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440AA0451DA28A2D00D568B6;
+			remoteInfo = Check_Internet_Connection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		440AA0461DA28A2D00D568B6 /* Check_Internet_Connection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Check_Internet_Connection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		440AA0491DA28A2D00D568B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		440AA04B1DA28A2D00D568B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		440AA04E1DA28A2D00D568B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		440AA0501DA28A2D00D568B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		440AA0531DA28A2D00D568B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		440AA0551DA28A2D00D568B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440AA05A1DA28A2D00D568B6 /* Check_Internet_ConnectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Check_Internet_ConnectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		440AA05E1DA28A2D00D568B6 /* Check_Internet_ConnectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_Internet_ConnectionTests.swift; sourceTree = "<group>"; };
+		440AA0601DA28A2D00D568B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440AA0651DA28A2D00D568B6 /* Check_Internet_ConnectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Check_Internet_ConnectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		440AA0691DA28A2D00D568B6 /* Check_Internet_ConnectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_Internet_ConnectionUITests.swift; sourceTree = "<group>"; };
+		440AA06B1DA28A2D00D568B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440AA07B1DA28E3F00D568B6 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		440AA0431DA28A2D00D568B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440AA0571DA28A2D00D568B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440AA0621DA28A2D00D568B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440AA03D1DA28A2D00D568B6 = {
+			isa = PBXGroup;
+			children = (
+				440AA0481DA28A2D00D568B6 /* Check_Internet_Connection */,
+				440AA05D1DA28A2D00D568B6 /* Check_Internet_ConnectionTests */,
+				440AA0681DA28A2D00D568B6 /* Check_Internet_ConnectionUITests */,
+				440AA0471DA28A2D00D568B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		440AA0471DA28A2D00D568B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440AA0461DA28A2D00D568B6 /* Check_Internet_Connection.app */,
+				440AA05A1DA28A2D00D568B6 /* Check_Internet_ConnectionTests.xctest */,
+				440AA0651DA28A2D00D568B6 /* Check_Internet_ConnectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440AA0481DA28A2D00D568B6 /* Check_Internet_Connection */ = {
+			isa = PBXGroup;
+			children = (
+				440AA0491DA28A2D00D568B6 /* AppDelegate.swift */,
+				440AA04B1DA28A2D00D568B6 /* ViewController.swift */,
+				440AA07B1DA28E3F00D568B6 /* Utility.swift */,
+				440AA04D1DA28A2D00D568B6 /* Main.storyboard */,
+				440AA0501DA28A2D00D568B6 /* Assets.xcassets */,
+				440AA0521DA28A2D00D568B6 /* LaunchScreen.storyboard */,
+				440AA0551DA28A2D00D568B6 /* Info.plist */,
+			);
+			path = Check_Internet_Connection;
+			sourceTree = "<group>";
+		};
+		440AA05D1DA28A2D00D568B6 /* Check_Internet_ConnectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				440AA05E1DA28A2D00D568B6 /* Check_Internet_ConnectionTests.swift */,
+				440AA0601DA28A2D00D568B6 /* Info.plist */,
+			);
+			path = Check_Internet_ConnectionTests;
+			sourceTree = "<group>";
+		};
+		440AA0681DA28A2D00D568B6 /* Check_Internet_ConnectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				440AA0691DA28A2D00D568B6 /* Check_Internet_ConnectionUITests.swift */,
+				440AA06B1DA28A2D00D568B6 /* Info.plist */,
+			);
+			path = Check_Internet_ConnectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		440AA0451DA28A2D00D568B6 /* Check_Internet_Connection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440AA06E1DA28A2D00D568B6 /* Build configuration list for PBXNativeTarget "Check_Internet_Connection" */;
+			buildPhases = (
+				440AA0421DA28A2D00D568B6 /* Sources */,
+				440AA0431DA28A2D00D568B6 /* Frameworks */,
+				440AA0441DA28A2D00D568B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Check_Internet_Connection;
+			productName = Check_Internet_Connection;
+			productReference = 440AA0461DA28A2D00D568B6 /* Check_Internet_Connection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		440AA0591DA28A2D00D568B6 /* Check_Internet_ConnectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440AA0711DA28A2D00D568B6 /* Build configuration list for PBXNativeTarget "Check_Internet_ConnectionTests" */;
+			buildPhases = (
+				440AA0561DA28A2D00D568B6 /* Sources */,
+				440AA0571DA28A2D00D568B6 /* Frameworks */,
+				440AA0581DA28A2D00D568B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				440AA05C1DA28A2D00D568B6 /* PBXTargetDependency */,
+			);
+			name = Check_Internet_ConnectionTests;
+			productName = Check_Internet_ConnectionTests;
+			productReference = 440AA05A1DA28A2D00D568B6 /* Check_Internet_ConnectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		440AA0641DA28A2D00D568B6 /* Check_Internet_ConnectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440AA0741DA28A2D00D568B6 /* Build configuration list for PBXNativeTarget "Check_Internet_ConnectionUITests" */;
+			buildPhases = (
+				440AA0611DA28A2D00D568B6 /* Sources */,
+				440AA0621DA28A2D00D568B6 /* Frameworks */,
+				440AA0631DA28A2D00D568B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				440AA0671DA28A2D00D568B6 /* PBXTargetDependency */,
+			);
+			name = Check_Internet_ConnectionUITests;
+			productName = Check_Internet_ConnectionUITests;
+			productReference = 440AA0651DA28A2D00D568B6 /* Check_Internet_ConnectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		440AA03E1DA28A2D00D568B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					440AA0451DA28A2D00D568B6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MST44422DP;
+						ProvisioningStyle = Automatic;
+					};
+					440AA0591DA28A2D00D568B6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MST44422DP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 440AA0451DA28A2D00D568B6;
+					};
+					440AA0641DA28A2D00D568B6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MST44422DP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 440AA0451DA28A2D00D568B6;
+					};
+				};
+			};
+			buildConfigurationList = 440AA0411DA28A2D00D568B6 /* Build configuration list for PBXProject "Check_Internet_Connection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 440AA03D1DA28A2D00D568B6;
+			productRefGroup = 440AA0471DA28A2D00D568B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				440AA0451DA28A2D00D568B6 /* Check_Internet_Connection */,
+				440AA0591DA28A2D00D568B6 /* Check_Internet_ConnectionTests */,
+				440AA0641DA28A2D00D568B6 /* Check_Internet_ConnectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		440AA0441DA28A2D00D568B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440AA0541DA28A2D00D568B6 /* LaunchScreen.storyboard in Resources */,
+				440AA0511DA28A2D00D568B6 /* Assets.xcassets in Resources */,
+				440AA04F1DA28A2D00D568B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440AA0581DA28A2D00D568B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440AA0631DA28A2D00D568B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		440AA0421DA28A2D00D568B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440AA04C1DA28A2D00D568B6 /* ViewController.swift in Sources */,
+				440AA04A1DA28A2D00D568B6 /* AppDelegate.swift in Sources */,
+				440AA07C1DA28E3F00D568B6 /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440AA0561DA28A2D00D568B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440AA05F1DA28A2D00D568B6 /* Check_Internet_ConnectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440AA0611DA28A2D00D568B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440AA06A1DA28A2D00D568B6 /* Check_Internet_ConnectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		440AA05C1DA28A2D00D568B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 440AA0451DA28A2D00D568B6 /* Check_Internet_Connection */;
+			targetProxy = 440AA05B1DA28A2D00D568B6 /* PBXContainerItemProxy */;
+		};
+		440AA0671DA28A2D00D568B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 440AA0451DA28A2D00D568B6 /* Check_Internet_Connection */;
+			targetProxy = 440AA0661DA28A2D00D568B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		440AA04D1DA28A2D00D568B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				440AA04E1DA28A2D00D568B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		440AA0521DA28A2D00D568B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				440AA0531DA28A2D00D568B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		440AA06C1DA28A2D00D568B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		440AA06D1DA28A2D00D568B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		440AA06F1DA28A2D00D568B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MST44422DP;
+				INFOPLIST_FILE = Check_Internet_Connection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.Check-Internet-Connection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		440AA0701DA28A2D00D568B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MST44422DP;
+				INFOPLIST_FILE = Check_Internet_Connection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.Check-Internet-Connection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		440AA0721DA28A2D00D568B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MST44422DP;
+				INFOPLIST_FILE = Check_Internet_ConnectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.Check-Internet-ConnectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Check_Internet_Connection.app/Check_Internet_Connection";
+			};
+			name = Debug;
+		};
+		440AA0731DA28A2D00D568B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MST44422DP;
+				INFOPLIST_FILE = Check_Internet_ConnectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.Check-Internet-ConnectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Check_Internet_Connection.app/Check_Internet_Connection";
+			};
+			name = Release;
+		};
+		440AA0751DA28A2D00D568B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MST44422DP;
+				INFOPLIST_FILE = Check_Internet_ConnectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.Check-Internet-ConnectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Check_Internet_Connection;
+			};
+			name = Debug;
+		};
+		440AA0761DA28A2D00D568B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MST44422DP;
+				INFOPLIST_FILE = Check_Internet_ConnectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple.Check-Internet-ConnectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Check_Internet_Connection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		440AA0411DA28A2D00D568B6 /* Build configuration list for PBXProject "Check_Internet_Connection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440AA06C1DA28A2D00D568B6 /* Debug */,
+				440AA06D1DA28A2D00D568B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440AA06E1DA28A2D00D568B6 /* Build configuration list for PBXNativeTarget "Check_Internet_Connection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440AA06F1DA28A2D00D568B6 /* Debug */,
+				440AA0701DA28A2D00D568B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		440AA0711DA28A2D00D568B6 /* Build configuration list for PBXNativeTarget "Check_Internet_ConnectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440AA0721DA28A2D00D568B6 /* Debug */,
+				440AA0731DA28A2D00D568B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		440AA0741DA28A2D00D568B6 /* Build configuration list for PBXNativeTarget "Check_Internet_ConnectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440AA0751DA28A2D00D568B6 /* Debug */,
+				440AA0761DA28A2D00D568B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 440AA03E1DA28A2D00D568B6 /* Project object */;
+}
